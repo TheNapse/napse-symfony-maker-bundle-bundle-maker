@@ -1,0 +1,26 @@
+{
+  "name": "napse/maker-bundle-bundle-maker",
+  "authors": [
+    {
+      "name": "Steffen Schmitt",
+      "email": "github@schmitt.codes"
+    }
+  ],
+  "description": "Erweiterung des Symfony Maker-Bundles zur Erstellung von Bundle-Skeletten",
+  "type": "symfony-bundle",
+  "version": "1",
+  "require": {
+    "php": ">=8.1",
+    "symfony/maker-bundle": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Napse\\BundleMaker\\": "src/"
+    }
+  },
+  "extra": {
+    "symfony": {
+      "bundle": "Napse\\BundleMaker\\BundleMaker"
+    }
+  }
+}
